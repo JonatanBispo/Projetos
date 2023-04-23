@@ -8,6 +8,7 @@ main{
     background-color: white;
     border-radius: 10px;
     margin: auto;
+    padding: 10px;
 }
 h1{
 text-align: left;
@@ -22,6 +23,10 @@ a{
     font-size: 1.2em;
     color: black;
 }
+a:hover{
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+}
 a::before{
-    content: '';
+    content: '\1F517';
 }
