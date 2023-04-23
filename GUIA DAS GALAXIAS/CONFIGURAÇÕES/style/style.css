@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonttitle);
+}
+:root{
+ --cor11:aqua;
+ --fonttitle: 'Bruno Ace SC', cursive;
+}
+body{
+    background-image:url(../IMAGENS/Fundo.jpg) ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+}
+header > h1{
+    padding: 20px;
+    font-family: var(--fonttitle);
+}
+header > h1 > a{
+    text-decoration: none;
+    
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+header > span > nav > a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: underline;
+    
+   
+}
+main{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.158) ;
+    background-color: white;
+    width: 70vw;
+    height: 75vh;
+    margin: auto;
+    border-radius: 10px;
+   
+
+}
+main > section > h1  , h2 {
+    text-align: center;
+    padding: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+main > section > p{
+    text-align: justify;
+    font-size: larger;
+    margin: 2px;
+    padding: 2px;
+    text-transform: initial 2px;
+    text-indent: 30px; /*quebra de inicio de paragrafo*/
+    line-height: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+   
+}
+.on{
+    background-color: brown;
+}
+footer{
+        bottom: 0;
+        position: fixed;
+       
+        text-align: center;
+        background-color: black;
+        color: white;
+   
+  
+}
+footer > h1{
+    position: sticky;
+    width: 100vw;
+    font-size: 16px ;
+}
