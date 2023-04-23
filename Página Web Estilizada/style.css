@@ -35,8 +35,8 @@ main{
     background-color: white;
     border-radius: 10px;  /*arredondamento da borda do elemento*/
     box-shadow: 5px 5px 15px rgba(105, 107, 96, 0.925); /* borda com efeito tipo caixa  */
-    width: 600px; /* tamanho do elemento */
-    padding: 50px; /* espaçamento interno do elemnto*/
+    /*width: 600px;  tamanho do elemento */
+    /*padding: 50px;  espaçamento interno do elemnto*/
     text-justify: auto; 
     font-size: 16px;/* tamanho da fonte para utilizar fontes correlatas ao word se utiliza o pt ex. 16pt = fonte tamnho 16 do word w3c recomenda px ou em (cada em equivale a 16px)  */
     font-family: Arial, Helvetica, sans-serif; /*tipo da fonte se não achar uma adota a proxima*/
@@ -46,8 +46,14 @@ main{
     text-align: justify;/*colocando o texto justificado */
     /* shothand font  -font-style -> font-weight -> font-size -> font-family 
      ficando assim font: italic bolder 3em 'work Sans',sans-serif; */
-   
+     text-transform: initial 2px;
+     text-indent: 30px; /*quebra de inicio de paragrafo*/
+     
 
+}
+main > p{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 img#mario{
   margin-left:  200px;
@@ -60,13 +66,14 @@ body{
 }
 h1{
    font-family: 'Soul'; /*utilizando fonte baixada*/
-   font-size: 3em;
+   font-size: 2em;
    font-weight: normal;
+   margin: center;
 
 }
 h3{
     font-family: 'Beth Ellen', cursive; /*utilizando a font importado do google fonts */
-    margin-left: 400px;
+    margin-left: 5px;
 }
 input{ /* esse botão tem sombra*/
     width: 400px;
