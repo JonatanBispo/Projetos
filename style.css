@@ -1,0 +1,27 @@
+body{
+    background: rgb(42,140,130);
+background: linear-gradient(90deg, rgba(42,140,130,1) 43%, rgba(65,191,179,1) 100%);
+padding: 10vw;
+}
+main{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.113);
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+h1{
+text-align: left;
+font-size: 2em;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    color: black;
+}
+a::before{
+    content: '';
+}
