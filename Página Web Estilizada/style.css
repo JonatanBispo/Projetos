@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');/*colocar o link da importação da font no cabeçalho so style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+/*colocar o link da importação da font no cabeçalho so style no caso desta coloquei outra variações  obs* colocar sempre fora dos seletores */
+@font-face { /*tag utilizada para importar fonte baixada */
+    font-family: 'Soul';
+    src: url('fontes/ValentineSoul.ttf') format('truetype');/*formatos mais utilizados são otf ttf*/
+
+    /* tipos de format() 
+     -opentype (otf)
+     -truetype (ttf)
+     -embedded-opentype
+     -truetype-aat (Apple Advanced typography)
+     -svg
+     */
+}
+/* reomendação utilizar no maximo 4 tipos de fonte no site */
+
+section{
+    left: 50px;
+    font-style: italic;
+    color: rgb(35, 8, 133);
+
+    position: center;
+}
+table{
+   margin:auto;
+   font-size: large;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: azure;
+   text-align: center;
+   
+}
+main{
+    margin: auto; /* centralização do elemento de forma automatica na pagina */
+    background-color: white;
+    border-radius: 10px;  /*arredondamento da borda do elemento*/
+    box-shadow: 5px 5px 15px rgba(105, 107, 96, 0.925); /* borda com efeito tipo caixa  */
+    width: 600px; /* tamanho do elemento */
+    padding: 50px; /* espaçamento interno do elemnto*/
+    text-justify: auto; 
+    font-size: 16px;/* tamanho da fonte para utilizar fontes correlatas ao word se utiliza o pt ex. 16pt = fonte tamnho 16 do word w3c recomenda px ou em (cada em equivale a 16px)  */
+    font-family: Arial, Helvetica, sans-serif; /*tipo da fonte se não achar uma adota a proxima*/
+    font-weight: bolder; /* para deixar a fonte mais grossa ou mais fina*/
+    font-style: italic; /*deixando a fonte com Italico*/
+    /* text-decoration: underline;/*colocando subilinhado*/
+    text-align: justify;/*colocando o texto justificado */
+    /* shothand font  -font-style -> font-weight -> font-size -> font-family 
+     ficando assim font: italic bolder 3em 'work Sans',sans-serif; */
+   
+
+}
+img#mario{
+  margin-left:  200px;
+}
+h1{
+    margin-left: 120px;
+}
+body{
+    background-image: radial-gradient(#2148BF,#0E2159);
+}
+h1{
+   font-family: 'Soul'; /*utilizando fonte baixada*/
+   font-size: 3em;
+   font-weight: normal;
+
+}
+h3{
+    font-family: 'Beth Ellen', cursive; /*utilizando a font importado do google fonts */
+    margin-left: 400px;
+}
+input{ /* esse botão tem sombra*/
+    width: 400px;
+    padding: 50px;
+    font-style: italic;
+    font-weight: 900; /*desidade da fonte*/
+    font-size: 20px;/*tamanho da fonte*/
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.15);
+    box-shadow: 0 0 10px 1px rgba(0, 0,0,0.35);
+    -webkit-backdrop-filter: blur(15px);
+}

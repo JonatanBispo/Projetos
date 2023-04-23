@@ -1,0 +1,17 @@
+main#p{
+    box-shadow: 10px 10px 10px #EE05F2;
+    margin: auto;
+    width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+img{
+    margin-left: 200px;
+}
+h1{
+     margin-left: 100px;
+}
+body{
+     background-image: radial-gradient(#F2A7D8,#F25790);
+}
