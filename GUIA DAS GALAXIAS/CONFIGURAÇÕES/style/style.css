@@ -81,6 +81,9 @@ main > section > p{
     font-weight: 500;
    
 }
+.pr{
+    margin-top: 20vh;
+}
 .on{
     background-color: brown;
 }
