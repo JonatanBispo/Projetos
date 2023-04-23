@@ -13,13 +13,11 @@ function calcular() {
    montar(r,n,imc,cl,nome)
 }
 function IMC(peso,altura) {
-   alert("calculando o imc")
    res = peso/(altura*altura) 
       return res 
 }
 
 function montar(r,n,imc,cl,nome){
-   prompt("montando tela")
    if (r < 10){
       n.innerText = "Nome: "+nome
       imc.innerText = "Seu IMC: "+ r
