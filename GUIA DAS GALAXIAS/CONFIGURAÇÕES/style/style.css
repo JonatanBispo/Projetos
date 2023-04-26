@@ -57,7 +57,7 @@ main{
     box-shadow: 10px 10px rgba(0, 0, 0, 0.158) ;
     background-color: white;
     width: 70vw;
-   
+    padding: 5px;
     margin: auto;
     border-radius: 10px;
     
@@ -82,7 +82,8 @@ main > section > p{
     text-indent: 30px; /*quebra de inicio de paragrafo*/
     line-height: 1em;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+    font-weight: bold;
+    text-decoration: underline rgba(0, 0, 0, 0.123);
    
 }
 .pr{
