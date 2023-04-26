@@ -6,6 +6,10 @@
     padding: 0px;
     font-family: var(--fonttitle);
 }
+html{
+    width: 100vw;
+}
+
 :root{
  --cor11:aqua;
  --fonttitle: 'Bruno Ace SC', cursive;
@@ -13,9 +17,9 @@
 body{
     background-image:url(../IMAGENS/Fundo.jpg) ;
     
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+   
     
     
 }
@@ -57,7 +61,7 @@ main{
     margin: auto;
     border-radius: 10px;
     
-    padding: 10px;
+    
    
 
 }
@@ -87,7 +91,9 @@ main > section > p{
 .on{
     background-color: brown;
 }
+
 footer{
+    margin-top: 10vh;
     bottom: 0;
         
        
@@ -99,6 +105,6 @@ footer{
 }
 footer > h1{
     position: sticky;
-    width: 100vw;
+    width: 90vw;
     font-size: 16px ;
 }
