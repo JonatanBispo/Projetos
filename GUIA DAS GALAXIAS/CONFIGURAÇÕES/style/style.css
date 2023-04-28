@@ -84,7 +84,7 @@ main > section > p{
     line-height: 1em;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    text-decoration: underline rgba(0, 0, 0, 0.123);
+    text-decoration: underline rgb(54,54,54);
    
 }
 .pr{
