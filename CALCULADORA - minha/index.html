@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+
+    </header>
+    
+         <main>
+            <table>
+                <thead>
+                    <th colspan="4"><div class="visor" id="visor"></div></th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="button" value="C" id="limpar" onclick="limpar()" ></td>
+                    <td><input type="button" value="+" id="soma" onclick="operador('+')"></td>
+                    <td><input type="button" value="-" id="subtrair" onclick="concatenar()"></td>
+                    <td><input type="button" value="*"id="multiplicar" onclick="concatenar()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" id="n7" onclick="concatenar(7)"></td>
+                    <td><input type="button" value="8" id="n8" onclick="concatenar(8)"></td>
+                    <td><input type="button" value="9" id="n9" onclick="concatenar(9)"></td>
+                    <td><input type="button" value="/" id="dividir" onclick="concatenar()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" id="n4" onclick="concatenar(4)"></td>
+                    <td><input type="button" value="5" id="n5" onclick="concatenar(5)"></td>
+                    <td><input type="button" value="6" id="n6" onclick="concatenar(6)"></td>
+                    <td rowspan="4" ><input type="button" value="=" class="igual"
+                        id="igual" onclick="concatenar()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" id="n1" onclick="concatenar(1)"></td>
+                    <td><input type="button" value="2" id="n2" onclick="concatenar(2)"></td>
+                    <td><input type="button" value="3" id="n3" onclick="concatenar(3)"></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="button" value="0" id="n0" onclick="concatenar(0)"></td>
+
+                </tr>
+            </tbody>
+            </table>
+         </main>
+    
+    
+<footer>
+    <h3>Desenvolvido por Jonatan Bispo</h3>
+</footer>
+</body>
+</html>
