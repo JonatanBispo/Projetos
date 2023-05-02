@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+:root{
+    --fonttitle: 'Bruno Ace SC', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    margin: auto;
+    
+    width: 90vw;
+    
+}
+header{
+    background-color: #038c7e48;
+    
+}
+img{
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+nav{
+    padding: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: #035AA6;
+    font-family: var(--fonttitle);
+    border: 0.5px solid rgba(0, 0, 0, 0.144);
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+nav > a:hover{
+    box-shadow: 1px 1px 1px black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+
+}
+p,ul{
+    text-rendering: 2em;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: justify;
+    text-indent: 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+ul{
+    margin-left: 35px;
+
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+     height: 200px;
+     width: 300px;
+     margin-left: 30px;
+    padding-bottom: 50px;
+   
+}
+tr,td,th{
+    border: 1px solid black;
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 5vh;
+}
+.hire{
+    position: absolute;
+    bottom: 0;
+    
+}
+.hire2{
+    width: 100vw;
+}
