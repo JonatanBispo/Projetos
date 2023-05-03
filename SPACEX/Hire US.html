@@ -20,30 +20,36 @@
     <h3>Hire Us Now</h3>
     <br>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a ab magni, ipsam animi, consequuntur quis id ullam culpa earum voluptates debitis quasi! Rerum, explicabo vel ipsa hic alias distinctio.</p>
-        <form action="#">
-            Nome<label for="nome">
-                <input type="text" name="nome" id="cname">
-            </label>
+    <form action="#">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required>
 
-            - Email:<label for="email">
-                <input type="text" name="email" id="">
-            </label>
-            <br>
-            <br>
-           Space - <label for="space">
-                <select name="space" id="space">
-                    <option value="Falcon9">Falcon 9</option>
-                    <option value="Starlink"> Starlink</option>
-                </select>
-            </label>
-            Type os Service: <search for="service">
-                <input type="search" name="search" id=""></search>
-                
-            </label>
-            <br>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
+       <label for="email"> - Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+       <label for="space"> Space -
+            <select name="space" id="space">
+                <option value="Falcon9">Falcon 9</option>
+                <option value="Starlink"> Falcon Heavy</option>
+            </select>
+        </label>
+        <label for="service">Type os Service:</label>
+         <search for="service">
+            <input type="search" name="service" id="service" list="services">
+        <datalist id="services">
+            <option value="1 Lorem ipsum dolor sit amet consectetur"></option>
+            <option value="2 Lorem ipsum dolor sit amet consectetur"></option>
+            <option value="3 Lorem ipsum dolor sit amet consectetur"></option>
+            <option value="4 Lorem ipsum dolor sit amet consectetur"></option>
+
+        </datalist>
+            
+        
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
         
 
     </main>
