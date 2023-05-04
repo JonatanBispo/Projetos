@@ -1,7 +1,7 @@
 body{
     background: rgba(0, 0, 0, 0.589);
 
-padding: 10vw;
+    padding: 10vw;
 }
 main{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
@@ -11,8 +11,8 @@ main{
     padding: 20px;
 }
 h1{
-text-align: left;
-font-size: 2em;
+    text-align: left;
+    font-size: 2em;
 }
 .center{
     text-align: center;
