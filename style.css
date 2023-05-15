@@ -15,7 +15,22 @@ body{
     
 }
 header{
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
+}
+header > h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+header > a{
+    text-decoration-color: #1d4264;
+
+}
+header > a > h2{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 main{
     margin: auto;
@@ -26,8 +41,12 @@ main{
 main > section > div {
   border: 1px solid black;
  padding: 10px;
+ margin-top: 5px;
   text-align: center;
   columns: 1;
+}
+main > section > div:hover{
+    background-color: #3E98EC;
 }
 main > section > div > a{
   
@@ -35,6 +54,8 @@ main > section > div > a{
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+    
+    
 }
 main > section > img{
     width: 40vw;
