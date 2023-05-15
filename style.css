@@ -1,32 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
 body{
-    background: rgba(0, 0, 0, 0.589);
-
-    padding: 10vw;
+    background-image: url(Portfolio/imagens/home\ imp.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+header{
+    margin-bottom: 5vw;
 }
 main{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
-    background-color: white;
-    border-radius: 10px;
     margin: auto;
-    padding: 20px;
+    width: 80vw;
+   margin-top:10px;
+    
 }
-h1{
-    text-align: left;
-    font-size: 2em;
+main > section > div {
+  border: 1px solid black;
+ padding: 10px;
+  text-align: center;
+  columns: 1;
 }
-.center{
-    text-align: center;
-}
-a{
+main > section > div > a{
+  
+    margin: auto;
     text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+main > section > img{
+    width: 40vw;
     padding: 10px;
+    display: block;
+    position: absolute;
+    transform: translateY(15%);
+}
+
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: white;
     font-size: 1.2em;
-    color: black;
-}
-a:hover{
-    box-shadow: 10px 10px 10px black;
-    border-radius: 10px;
-}
-a::before{
-    content: '\1F517';
+    margin-top: 10px;
+    
 }
