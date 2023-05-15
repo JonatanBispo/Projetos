@@ -8,30 +8,38 @@ Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px*/
 
-@media screen and (min-width: 768px) and (max-width: 992px){/* Versão para Tablet */
-   body{
-        background-image: url(../imagens/home.png);
-   }
-   main > section > img {
-        width: 50vw;
-        transform: translateY(19%);
-    
-   }
-   main > section > div{
-             width: 20vw;
-   }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Versão para Tablet */
+  body {
+    background-image: url(../imagens/home.png);
+  }
+  main > section > img {
+    width: 50vw;
+    transform: translateY(19%);
+  }
+  main > section > div {
+    width: 20vw;
+  }
 }
 
-@media screen and (min-width: 992px){/* versã tela grande */
-    body{
-        background-image: url(../imagens/home.png);
-      }
-      main > section > img {
-            width: 20vw;
-            transform: translateY(19%);
-       }
-        main > section > div{
-            margin: auto;
-            width: 40vw;
-   }
+@media screen and (min-width: 992px) {
+  /* versã tela grande */
+  body {
+    background-image: url(../imagens/home.png);
+  }
+  main > section > img {
+    width: 20vw;
+    transform: translateY(19%);
+  }
+  main > section > div {
+    margin: auto;
+    width: 40vw;
+    margin-top: 10px;
+  }
+  header > h1 {
+    font-size: 2em;
+  }
+  header > h2 {
+    font-size: 1.8em;
+  }
 }
