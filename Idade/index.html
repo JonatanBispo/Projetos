@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1 JS</title>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome">
+    </div>
+    <br>
+    <div>
+        <label for="isobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="isobrenome">
+    </div>
+    <br>
+    <div>
+        <label for="icampo">Campo de Estudo:</label>
+        <input type="text" name="campo" id="icampo">
+    </div>
+    <br>
+    <div>
+        <label for="iano">Ano de nascimento:</label>
+        <input type="number" name="ano" id="iano" required>
+    </div>
+    <br>
+    <input type="button" value="Mostrar" onclick="mostrar()">
+    <table id="itabela">
+        <tbody>
+            <th>Nome</th>
+            <th>Campo de Estudo</th>
+            <th>Idade</th>
+        </tbody>
+    </table>
+    
+    <div>
+        <label for="inumero">Numero 1:</label>
+        <input type="number" name="numero" id="inumero">
+    </div>
+    
+    <div>
+        <label for="inumero2">Numero 2:</label>
+        <input type="number" name="numero" id="inumero2">
+    </div>
+    <input type="button" value="Calcular" onclick="calcular()">
+    <div id="ires"></div>
+
+</body>
+
+</html>
