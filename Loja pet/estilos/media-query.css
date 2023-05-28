@@ -17,9 +17,13 @@
         padding: 5px;
     }
    
-     a{
+    a{
         text-decoration: none;
         color: white;
+    }
+    .autor {
+        text-decoration: dashed;
+        color: black;
     }
     .exibexibirmenu{
        display: inline-block;
@@ -85,6 +89,10 @@
     a{
         text-decoration: none;
         color: white;
+    }
+    .autor {
+        text-decoration: dashed;
+        color: black;
     }
     .exibexibirmenu{
        display: inline-block;
