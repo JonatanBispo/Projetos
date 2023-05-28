@@ -1,0 +1,156 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #hamburguer{
+        display: none;
+     }
+     .imgtop2{
+        display: none;
+     }
+     .menuhamburguer{
+        display: none;
+     }
+     header{
+       height: 60px;
+     }
+
+    .menucentral{
+        display: inline-block;
+        padding: 5px;
+    }
+   
+     a{
+        text-decoration: none;
+        color: white;
+    }
+    .exibexibirmenu{
+       display: inline-block;
+    }
+    div{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+ 
+    div > .menucentral > a {
+        display: inline-block;
+        background-color: #8EC663;
+        
+        padding: 10px;
+        border-radius: 10px;
+    }
+    div .menucentral > a:hover{
+        border: 0.2px solid #1C2208;
+        background-color: var(--cor1);
+    }
+    div .menucanto{
+        
+        padding: 10px;
+        float: right;  
+    }
+    div .menucanto > a{
+        
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #1C2208;
+    }
+    .menucanto > a:hover{
+      background-color: #1c2208b7;
+    }
+    .imgtop{
+        width: 40px;
+        transform: translateY(10px);
+        
+    
+    }
+}
+
+@media screen and (min-width: 992px){
+    #hamburguer{
+        display: none;
+     }
+     .imgtop2{
+        display: none;
+     }
+     .menuhamburguer{
+        display: none;
+     }
+     header{
+       height: 60px;
+     }
+
+    .menucentral{
+        display: inline-block;
+        padding: 5px;
+    }
+   
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .exibexibirmenu{
+       display: inline-block;
+    }
+    div{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+ 
+    div > .menucentral > a {
+        display: inline-block;
+        background-color: #8EC663;
+        
+        padding: 10px;
+        border-radius: 10px;
+    }
+    div .menucentral > a:hover{
+        border: 0.2px solid #1C2208;
+        background-color: var(--cor1);
+    }
+    div .menucanto{
+        
+        padding: 10px;
+        float: right;  
+    }
+    div .menucanto > a{
+        
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #1C2208;
+    }
+    .menucanto > a:hover{
+      background-color: #1c2208b7;
+    }
+    .imgtop{
+        width: 40px;
+        transform: translateY(10px);
+        
+    
+    }
+   
+.imgcorpo{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: block;
+}
+.titulos{
+    background-color: var(--cor3);
+    width: 50vw;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 2em;
+    margin-left: 10vw;
+}
+main > section > p {
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 2em;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.video{
+    width: 40vw;
+    height: 50vh;
+    margin-bottom: 0px;
+    margin: auto;
+}
+}

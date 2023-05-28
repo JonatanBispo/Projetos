@@ -1,0 +1,124 @@
+@charset "UTF-8";
+:root{
+    --cor1:#1C2208;
+    --cor2:#8EC663;
+    --cor3:#DFCE5C;
+}
+body{
+    margin: 0px;
+}
+header{
+    padding-bottom:10px ;
+}
+
+div   {
+   display: none;
+}
+
+span#hamburguer{
+    
+    float: right;
+    padding: 0px;
+    margin: auto;
+    
+    width: 50px;
+    height: 50px;
+    transform: translateY(10px);
+}
+
+.imgtop{
+    width: 40px;
+    transform: translateY(10px);
+
+}
+.imgtop2{
+    width: 40px;
+    transform: translateY(10px);
+
+}
+header{
+    background-color: var(--cor2);
+    position: sticky;
+}
+.menuhamburguer{
+    align-items: right;
+    left: 0px;
+    position: static;
+    width: 150px;
+    margin-left: auto;
+    transform: translateY(-20px);
+    display: none ;
+    
+    
+    
+ }
+ section > menu > a{
+    display: block;
+    padding: 10px;
+    margin: 1px;
+    background-color: #8EC663;
+    text-decoration: none;
+    color: white;
+    
+    
+ }
+ section > menu > a:hover{
+    background-color: var(--cor1);
+ }
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.imgcorpo{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: block;
+}
+.titulos{
+    background-color: var(--cor3);
+    width: 50vw;
+    border-radius: 0px 5px 5px 0px;
+}
+main > section > p {
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 18px;
+}
+.poema{
+    text-align: center;
+}
+main.inicial{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+footer{
+    background-color: var(--cor1);
+    margin: auto;
+    padding: 0px;
+    height: 50px;
+    
+}
+footer > p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+footer > p > a{
+    color: white;
+}
+.video{
+    width: 70vw;
+    height: 50vh;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+
+
+
+
+
