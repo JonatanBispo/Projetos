@@ -6,6 +6,7 @@
 }
 body{
     margin: 0px;
+    background-color: #1c220817;
 }
 header{
     padding-bottom:10px ;
@@ -17,7 +18,7 @@ div   {
 
 span#hamburguer{
     
-    float: right;
+    
     padding: 0px;
     margin: auto;
     
@@ -27,13 +28,16 @@ span#hamburguer{
 }
 
 .imgtop{
+    
     width: 40px;
     transform: translateY(10px);
+    
 
 }
 .imgtop2{
     width: 40px;
     transform: translateY(10px);
+    float: right;
 
 }
 header{
@@ -41,16 +45,13 @@ header{
     position: sticky;
 }
 .menuhamburguer{
+    position: absolute;
     align-items: right;
-    left: 0px;
-    position: static;
+    left: -50px;
     width: 150px;
     margin-left: auto;
     transform: translateY(-20px);
     display: none ;
-    
-    
-    
  }
  .autor {
     text-decoration: dashed;
@@ -73,6 +74,7 @@ header{
 main{
     width: 100vw;
     height: 100vh;
+    background-color: white;
 }
 
 .imgcorpo{
@@ -90,6 +92,9 @@ main > section > p {
     text-align: justify;
     text-indent: 1.5em;
     font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
 .poema{
     text-align: center;
@@ -116,7 +121,7 @@ footer > p > a{
 }
 .video{
     width: 70vw;
-    height: 50vh;
+    height: 30vh;
     margin-bottom: 0px;
     margin: auto;
 }

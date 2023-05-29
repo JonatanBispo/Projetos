@@ -6,4 +6,6 @@ function exibir(){
 function esconder() {
     let h = document.getElementById("han")
     h.style.display = "none"
+    
+   
 }

@@ -12,7 +12,7 @@
  <script src="script.js"></script>
     
 </head>
-<body>
+<body id="bo" onresize="esconder()">
     <header>
         <span class="material-symbols-outlined" id="hamburguer" onclick="exibir()" ondblclick="esconder()">
             menu
@@ -35,7 +35,7 @@
     
     </header>
     <section class="menuhamburguer" id="han">
-        <menu onclick="esconder()">
+        <menu onclick="esconder()" >
             <a href="#">Natureza</a>
             <a href="#">Bem-estar</a>
             <a href="#">Prosperidade</a>
