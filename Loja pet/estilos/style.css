@@ -103,6 +103,8 @@ main.inicial{
     width: 90%;
     height: 100%;
     margin: auto;
+    padding-top: 20px;
+   
 }
 footer{
     background-color: var(--cor1);
