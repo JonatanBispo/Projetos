@@ -12,19 +12,6 @@ function concatenar(numero){
 
     mostrar(novo)
 
-
-
-
-
-
-
-
-    
-    
-    
-   
-    
-
 }
 
 function operador(operador){
