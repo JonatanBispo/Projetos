@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+body {
+  background-image: url(Portfolio/imagens/home\ imp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #08131d;
+  
+}
+header {
+  margin-bottom: 1vw;
+  
+  
+}
+header > h1 {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+}
+section > iframe{
+ margin-left: auto; /* Margem automática da esquerda */
+    margin-right: auto; /* Margem automática da direita */
+    display: block; 
+}
+header > a {
+  text-decoration-color: #1d4264;
+}
+header > a > h2 {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+main {
+  margin: auto;
+  width: 80vw;
+  margin-top: 10px;
+}
+main > section > div {
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+  columns: 1;
+  border: 2px solid #1d4264;
+  border-radius: 5px;
+}
+main > section > div:hover {
+  background-color: #3e98ec;
+  
+}
+main > section > div > a {
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  display: block;
+}
+main > section > img {
+  width: 40vw;
+  padding: 10px;
+  display: block;
+  position: absolute;
+  transform: translateY(15%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
